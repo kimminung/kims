@@ -85,7 +85,7 @@ class ViewController: UIViewController {
     override func performSegue(withIdentifier identifier: String, sender: Any?) {
         super.performSegue(withIdentifier: identifier, sender: sender)
         print("perform")
-        print(identifier)
-        print(sender)
+//        print(identifier)
+//        print(sender)
     }
 }

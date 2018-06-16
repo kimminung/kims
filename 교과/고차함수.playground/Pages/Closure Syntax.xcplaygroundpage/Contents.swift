@@ -13,14 +13,15 @@ names.sorted(by: { (str1:String, str2:String) -> Bool in
 names.sorted(by: {(str1,str2) -> Bool in
 return str1 > str2
 })
-names.sorted({(String, String) -> Bool in
-    return str1 > str2
-})
-names.sorted(by:{})
+//names.sorted({(String, String) -> Bool in
+//    return str1 > str2
+//})
+//names.sorted(by:{})
 
 names.sorted{ $0 > $1 }
 
 names.sorted(by: >) //인자, 리턴, 변수를 축약
+//> 자체가 함수. $0 > $1처럼 >의 양쪽에 숨어있는 기능이 있는 함수
 
 
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x1100;&#x1175;1/AppDelegate.swift"
+            timestampString = "550313275.593465"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_______1.AppDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x1100;&#x1175;1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimminung/Desktop/Kim%20hub/%E1%84%81%E1%85%B3%E1%84%8C%E1%85%A5%E1%86%A8/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/AppDelegate.swift"
+                  timestampString = "550313275.7033269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_______1.AppDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x1100;&#x1175;1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimminung/Desktop/Kim%20hub/%E1%84%81%E1%85%B3%E1%84%8C%E1%85%A5%E1%86%A8/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/AppDelegate.swift"
+                  timestampString = "550313275.707039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_______1.AppDelegate.init() -&gt; _______1.AppDelegate"
+                  moduleName = "&#x110c;&#x1161;&#x1111;&#x1161;&#x11ab;&#x1100;&#x1175;1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimminung/Desktop/Kim%20hub/%E1%84%81%E1%85%B3%E1%84%8C%E1%85%A5%E1%86%A8/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B51/AppDelegate.swift"
+                  timestampString = "550313275.7091759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

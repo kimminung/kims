@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_________" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5c-Yi-FeL">
+                                <rect key="frame" x="0.0" y="75" width="375" height="592"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="uzT-NS-eNg">
+                                        <rect key="frame" x="0.0" y="0.0" width="1800" height="1200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.94849730919349173" blue="0.59931332431990225" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="uzT-NS-eNg" secondAttribute="bottom" id="FUL-CS-lRd"/>
+                                    <constraint firstItem="uzT-NS-eNg" firstAttribute="leading" secondItem="N5c-Yi-FeL" secondAttribute="leading" id="Qrg-Wm-4oX"/>
+                                    <constraint firstAttribute="trailing" secondItem="uzT-NS-eNg" secondAttribute="trailing" id="ZIJ-65-ruB"/>
+                                    <constraint firstItem="uzT-NS-eNg" firstAttribute="top" secondItem="N5c-Yi-FeL" secondAttribute="top" id="xQT-qX-yWY"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="sHA-LE-OGo"/>
+                                </connections>
+                            </scrollView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcQ-kw-4bf">
+                                <rect key="frame" x="0.0" y="31" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="최소 배율" id="p6R-VO-Hnc">
+                                        <connections>
+                                            <action selector="fitToWidthWith_sender:" destination="BYZ-38-t0r" id="ez0-AU-eqM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="2배 확대" id="gha-dB-3op">
+                                        <connections>
+                                            <action selector="scaleDoubleWith_sender:" destination="BYZ-38-t0r" id="gip-6T-Fgn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="컨텐츠 이동" id="wdQ-Ph-TVd">
+                                        <connections>
+                                            <action selector="moveContentWith_sender:" destination="BYZ-38-t0r" id="SHc-G6-1Ix"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KcQ-kw-4bf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Je-zP-37j"/>
+                            <constraint firstItem="N5c-Yi-FeL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BC5-n3-cJQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N5c-Yi-FeL" secondAttribute="trailing" id="EJc-XB-dXT"/>
+                            <constraint firstItem="KcQ-kw-4bf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NvV-qT-NeK"/>
+                            <constraint firstItem="KcQ-kw-4bf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="RgX-mw-Kuh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N5c-Yi-FeL" secondAttribute="bottom" id="UQ8-md-fhK"/>
+                            <constraint firstItem="N5c-Yi-FeL" firstAttribute="top" secondItem="KcQ-kw-4bf" secondAttribute="bottom" id="kdg-11-4ep"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="uzT-NS-eNg" id="dpY-ID-mNB"/>
+                        <outlet property="scrollView" destination="N5c-Yi-FeL" id="ben-ut-QLj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog" width="1800" height="1200"/>
+    </resources>
+</document>

@@ -61,5 +61,19 @@ class ViewController: UIViewController, CustomButtonDelegate, CustomLoginDelegat
     func ung() {
         
     }
+    
+    //키보드 크기 값?
+    override func viewDidAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(forName: .UIKeyboardWillShow, object: nil, queue: .main) {
+            guard let userInfo = $0.userInfo,
+                let keyboardFrame = userInfo[UIKeyboardFrameEndUserInfoKey] as? CGRect,
+                let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
+                let curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? UInt
+                else { return }
+            print(keyboardFrame)
+        }
+    }
+    
+    
 }
 

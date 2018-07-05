@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  @IBAction private func postButton(_ sender: Any) {
-    print("\n---------- [ postButton ] ----------\n")
-    NotificationCenter.default.post(name: myNoti, object: sender)
+    @IBAction private func postButton(_ sender: Any) {
+        print("\n---------- [ postButton ] ----------\n")
+        NotificationCenter.default.post(name: myNoti, object: sender)
   }
   
   @IBAction private func didOnExit(_ sender: Any) {

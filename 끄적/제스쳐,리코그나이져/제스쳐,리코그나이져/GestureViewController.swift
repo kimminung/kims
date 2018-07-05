@@ -14,16 +14,46 @@ import UIKit
 //핀치 제스쳐 - 줌,아웃
 class GestureViewController: UIViewController {
 
-    @IBOutlet weak var ImageView2: UIImageView!
+    @IBOutlet private weak var imageView2: UIImageView!
+    var isQuadruple = false
+    
+    @IBOutlet private weak var swipeGestureRecognizer: UISwipeGestureRecognizer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView2.layer.cornerRadius = imageView2.frame.width / 2
+        imageView2.layer.masksToBounds = true
+        
+        swipeGestureRecognizer.direction = [.left, .right]
         
     }
 
+    @IBAction private func handleTapGesture(_ sender: UITapGestureRecognizer) {
+        if !isQuadruple {
+            imageView2.transform = imageView2.transform.scaledBy(x: 2, y: 2)
+        } else {
+            imageView2.transform = CGAffineTransform.identity
+        }
+        isQuadruple = !isQuadruple
+    }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
+    @IBAction private func handleRotationGeture(_ sender: UIRotationGestureRecognizer) {
+        let rotation = sender.rotation
+        imageView2.transform = imageView2.transform.rotated(by: rotation)
+        sender.rotation = 0
+    }
+    
+    @IBAction private func handlePanGesture(_ sender: UIPanGestureRecognizer) {
+        let point = sender.location(in: sender.view!)
+        imageView2.center = point
+    }
+    
+    @IBAction private func handleSwipeGesture(_ sender: UISwipeGestureRecognizer) {
+        imageView2.image = #imageLiteral(resourceName: "cat1")
+    }
+    
+    @IBAction private func handleLeftSwipeGesture(_ sender: UISwipeGestureRecognizer) {
+        imageView2.image = #imageLiteral(resourceName: "cat2")
     }
 
 }

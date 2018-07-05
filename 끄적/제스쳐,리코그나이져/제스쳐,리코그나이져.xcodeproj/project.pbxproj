@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0132C38A20EC8C06007EA494 /* TextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132C38920EC8C06007EA494 /* TextFieldController.swift */; };
 		01DAF7C120E205530091F253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAF7C020E205530091F253 /* AppDelegate.swift */; };
 		01DAF7C320E205530091F253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAF7C220E205530091F253 /* ViewController.swift */; };
 		01DAF7C620E205530091F253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DAF7C420E205530091F253 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0132C38920EC8C06007EA494 /* TextFieldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldController.swift; sourceTree = "<group>"; };
 		01DAF7BD20E205530091F253 /* 제스쳐,리코그나이져.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "제스쳐,리코그나이져.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DAF7C020E205530091F253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DAF7C220E205530091F253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				01DAF7C020E205530091F253 /* AppDelegate.swift */,
 				01DAF7C220E205530091F253 /* ViewController.swift */,
 				01DAF7D220E209A30091F253 /* GestureViewController.swift */,
+				0132C38920EC8C06007EA494 /* TextFieldController.swift */,
 				01DAF7C420E205530091F253 /* Main.storyboard */,
 				01DAF7C720E205540091F253 /* Assets.xcassets */,
 				01DAF7C920E205540091F253 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DAF7D320E209A30091F253 /* GestureViewController.swift in Sources */,
+				0132C38A20EC8C06007EA494 /* TextFieldController.swift in Sources */,
 				01DAF7C320E205530091F253 /* ViewController.swift in Sources */,
 				01DAF7C120E205530091F253 /* AppDelegate.swift in Sources */,
 			);

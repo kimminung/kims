@@ -22,7 +22,7 @@ class ClassProperty {
 }
 
 class Application {
-    var prop = ClassProperty()      //1. 여기에 옵셔널 ? 을 추가하고 변수에 담음
+    var prop = ClassProperty()      //1. 여기에 옵셔널 ? 을 추가하고 변수에 담음(미완)
   
   func allocateInstance() {
     let local = LocalScope()

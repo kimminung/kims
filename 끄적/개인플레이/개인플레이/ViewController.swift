@@ -48,10 +48,6 @@ class ViewController: UIViewController {
         
         tableView.frame = CGRect(x: 0, y:Int(view.bounds.midY), width: Int(viewWidth), height: 50)
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     
 }

@@ -387,17 +387,17 @@ hack(score: 2.1)
 func hackJeom(_ grades: String...)->Double{
     var total: Double = 0.0
     for grade in grades {
-    switch grade {
-    case "A+":
-        total += 4.5
-    case "A":
-        total += 4.0
-    case "F":
-        total += 0.0
-    default:
-        print("잘못 입력")
-        
-    }
+        switch grade {
+        case "A+":
+            total += 4.5
+        case "A":
+            total += 4.0
+        case "F":
+            total += 0.0
+        default:
+            print("잘못 입력")
+            
+        }
     }
     return total / Double(grades.count)
 }

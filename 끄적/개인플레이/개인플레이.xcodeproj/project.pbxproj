@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0100EFB120F3E06800CE071E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0100EFB020F3E06800CE071E /* GameScene.sks */; };
+		0100EFB320F3E07200CE071E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0100EFB220F3E07200CE071E /* Actions.sks */; };
+		0100EFB520F3E07C00CE071E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100EFB420F3E07C00CE071E /* GameScene.swift */; };
+		0100EFB720F3E08400CE071E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0100EFB620F3E08400CE071E /* GameViewController.swift */; };
+		0105FECB20F38097005E49E9 /* ScrollViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105FECA20F38097005E49E9 /* ScrollViewPaging.swift */; };
 		017FE75120E1D4C4007F9E1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE75020E1D4C4007F9E1F /* AppDelegate.swift */; };
 		017FE75320E1D4C4007F9E1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE75220E1D4C4007F9E1F /* ViewController.swift */; };
 		017FE75620E1D4C4007F9E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017FE75420E1D4C4007F9E1F /* Main.storyboard */; };
 		017FE75820E1D4C5007F9E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017FE75720E1D4C5007F9E1F /* Assets.xcassets */; };
 		017FE75B20E1D4C5007F9E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017FE75920E1D4C5007F9E1F /* LaunchScreen.storyboard */; };
-		017FE76620E1D4C5007F9E1F /* ____________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE76520E1D4C5007F9E1F /* ____________Tests.swift */; };
-		017FE77120E1D4C5007F9E1F /* ____________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE77020E1D4C5007F9E1F /* ____________UITests.swift */; };
+		01C2B38E20F3CAD100E1DE6F /* RotatingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0199BA9820F397140063E419 /* RotatingObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0100EFB020F3E06800CE071E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../../sp/sp/GameScene.sks; sourceTree = "<group>"; };
+		0100EFB220F3E07200CE071E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = ../../../../sp/sp/Actions.sks; sourceTree = "<group>"; };
+		0100EFB420F3E07C00CE071E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../../sp/sp/GameScene.swift; sourceTree = "<group>"; };
+		0100EFB620F3E08400CE071E /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../../../sp/sp/GameViewController.swift; sourceTree = "<group>"; };
+		0105FECA20F38097005E49E9 /* ScrollViewPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPaging.swift; sourceTree = "<group>"; };
 		017FE74D20E1D4C3007F9E1F /* 개인플레이.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "개인플레이.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017FE75020E1D4C4007F9E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		017FE75220E1D4C4007F9E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +50,9 @@
 		017FE75720E1D4C5007F9E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		017FE75A20E1D4C5007F9E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		017FE75C20E1D4C5007F9E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		017FE76120E1D4C5007F9E1F /* 개인플레이Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "개인플레이Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		017FE76520E1D4C5007F9E1F /* ____________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____________Tests.swift"; sourceTree = "<group>"; };
-		017FE76720E1D4C5007F9E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		017FE76C20E1D4C5007F9E1F /* 개인플레이UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "개인플레이UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		017FE77020E1D4C5007F9E1F /* ____________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____________UITests.swift"; sourceTree = "<group>"; };
-		017FE77220E1D4C5007F9E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017FE76120E1D4C5007F9E1F /* 개인플레이Tests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "개인플레이Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017FE76C20E1D4C5007F9E1F /* 개인플레이UITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "개인플레이UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0199BA9820F397140063E419 /* RotatingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				017FE74F20E1D4C3007F9E1F /* 개인플레이 */,
-				017FE76420E1D4C5007F9E1F /* 개인플레이Tests */,
-				017FE76F20E1D4C5007F9E1F /* 개인플레이UITests */,
 				017FE74E20E1D4C3007F9E1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +102,19 @@
 			isa = PBXGroup;
 			children = (
 				017FE75020E1D4C4007F9E1F /* AppDelegate.swift */,
+				0199BA9820F397140063E419 /* RotatingObject.swift */,
 				017FE75220E1D4C4007F9E1F /* ViewController.swift */,
+				0105FECA20F38097005E49E9 /* ScrollViewPaging.swift */,
 				017FE75420E1D4C4007F9E1F /* Main.storyboard */,
 				017FE75720E1D4C5007F9E1F /* Assets.xcassets */,
 				017FE75920E1D4C5007F9E1F /* LaunchScreen.storyboard */,
 				017FE75C20E1D4C5007F9E1F /* Info.plist */,
+				0100EFB020F3E06800CE071E /* GameScene.sks */,
+				0100EFB220F3E07200CE071E /* Actions.sks */,
+				0100EFB420F3E07C00CE071E /* GameScene.swift */,
+				0100EFB620F3E08400CE071E /* GameViewController.swift */,
 			);
 			path = "개인플레이";
-			sourceTree = "<group>";
-		};
-		017FE76420E1D4C5007F9E1F /* 개인플레이Tests */ = {
-			isa = PBXGroup;
-			children = (
-				017FE76520E1D4C5007F9E1F /* ____________Tests.swift */,
-				017FE76720E1D4C5007F9E1F /* Info.plist */,
-			);
-			path = "개인플레이Tests";
-			sourceTree = "<group>";
-		};
-		017FE76F20E1D4C5007F9E1F /* 개인플레이UITests */ = {
-			isa = PBXGroup;
-			children = (
-				017FE77020E1D4C5007F9E1F /* ____________UITests.swift */,
-				017FE77220E1D4C5007F9E1F /* Info.plist */,
-			);
-			path = "개인플레이UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0100EFB120F3E06800CE071E /* GameScene.sks in Resources */,
 				017FE75B20E1D4C5007F9E1F /* LaunchScreen.storyboard in Resources */,
 				017FE75820E1D4C5007F9E1F /* Assets.xcassets in Resources */,
 				017FE75620E1D4C4007F9E1F /* Main.storyboard in Resources */,
+				0100EFB320F3E07200CE071E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0100EFB720F3E08400CE071E /* GameViewController.swift in Sources */,
+				0100EFB520F3E07C00CE071E /* GameScene.swift in Sources */,
 				017FE75320E1D4C4007F9E1F /* ViewController.swift in Sources */,
 				017FE75120E1D4C4007F9E1F /* AppDelegate.swift in Sources */,
+				01C2B38E20F3CAD100E1DE6F /* RotatingObject.swift in Sources */,
+				0105FECB20F38097005E49E9 /* ScrollViewPaging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017FE76620E1D4C5007F9E1F /* ____________Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017FE77120E1D4C5007F9E1F /* ____________UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +426,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z8G42AVKD;
 				INFOPLIST_FILE = "개인플레이/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,15 +447,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z8G42AVKD;
 				INFOPLIST_FILE = "개인플레이/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

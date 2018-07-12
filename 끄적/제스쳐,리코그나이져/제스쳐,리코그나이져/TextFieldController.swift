@@ -14,7 +14,6 @@ final class TextFieldController: UIViewController {
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var textView: UITextView!
     @IBOutlet private weak var tableView: UITableView!
-//    @IBOutlet private weak var tableView: UITableViewCell!
     var isQuadruple = false
     
     

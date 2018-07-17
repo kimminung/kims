@@ -1,0 +1,6 @@
+framework module Colorify {
+  umbrella header "Colorify-umbrella.h"
+
+  export *
+  module * { export * }
+}

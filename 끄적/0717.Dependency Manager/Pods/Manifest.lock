@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Colorify (1.2)
+  - Kingfisher (4.8.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Colorify
+  - Kingfisher (~> 4.8)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Colorify
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Colorify: 9bfa160a80d8c66e31c99aa691a1446c41221801
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+
+PODFILE CHECKSUM: 5fb48eb8d928ed79c662c0590f50255b06ad069c
+
+COCOAPODS: 1.5.3
